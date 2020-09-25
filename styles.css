@@ -1,11 +1,43 @@
 body {
-  margin: none;
+  margin: auto;
   padding: none;
+}
+
+h2 {
+  font-family: 'David Libre', serif;
+  margin: auto;
+  padding: none;
+  text-align: center;
+}
+
+h3 {
+  margin: auto;
+  padding: none;
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  height: auto;
 }
 
 .topBlock {
   border: 1px;
   background-color: red;
-  margin: none;
-  padding: 4rem 1rem 2rem 0;
+  margin: auto;
+  padding: 10rem 1rem 10rem 0;
+}
+
+.questionBlock {
+  background-color: white;
+  margin: auto;
+  padding: 3rem 0 3rem 0;
+  font-family: 'David Libre', serif;
+}
+
+.pictureButtons {
+  background-color: blue;
+  margin: auto;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
 }
