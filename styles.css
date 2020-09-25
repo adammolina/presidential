@@ -1,0 +1,11 @@
+body {
+  margin: none;
+  padding: none;
+}
+
+.topBlock {
+  border: 1px;
+  background-color: red;
+  margin: none;
+  padding: 4rem 1rem 2rem 0;
+}
