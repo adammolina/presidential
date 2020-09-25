@@ -17,8 +17,15 @@ h3 {
 }
 
 img {
-  width: 30%;
+  width: 40%;
   height: auto;
+  padding: 2rem 0 2rem 0;
+}
+
+.imgClicked {
+  width: 50%;
+  height: auto;
+  padding: 2rem 0 2rem 0;
 }
 
 .topBlock {
