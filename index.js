@@ -1,5 +1,17 @@
+var images = document.querySelectorAll(".pictureButtons").length;
 
-$("img").click(function() {
-  $("img").removeClass("img");
-  $("img").addClass("imgClicked");
-});
+for (var i = 0; i<images; i++) {
+
+  document.querySelectorAll(".pictureButtons")[i].addEventListener("click", function () {
+
+    buttonAnimation()
+
+  });
+}
+
+
+function buttonAnimation(currentKey) {
+
+  var activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("imgClicked");
+}
