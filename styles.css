@@ -26,6 +26,7 @@ img {
   width: 50%;
   height: auto;
   padding: 2rem 0 2rem 0;
+  box-shadow: 0 3px 4px 0 #DBEDF3;
 }
 
 .topBlock {
