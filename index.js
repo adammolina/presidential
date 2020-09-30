@@ -1,5 +1,5 @@
-$(document).ready(function () {
-  $("img").on("click", function(event) {
-    $target = $(event.target);
-      $target.addClass("imgClicked");
+$(document).ready(function() {
+  $(".pictureButtons").on("click", function(event) {
+    alert("You did it!");
   });
+});
