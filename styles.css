@@ -23,10 +23,10 @@ img {
 }
 
 .imgClicked {
-  width: 50%;
+  width: 60%;
   height: auto;
   padding: 2rem 0 2rem 0;
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  background-color: black;
 }
 
 .topBlock {
@@ -44,7 +44,7 @@ img {
 }
 
 .pictureButtons {
-  background-color: blue;
+  background-color: black;
   margin: auto;
   padding: 1rem 0 1rem 0;
   text-align: center;
