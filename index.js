@@ -3,4 +3,3 @@ $(document).ready(function () {
     $target = $(event.target);
       $target.addClass("imgClicked");
   });
-})
