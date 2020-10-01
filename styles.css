@@ -16,17 +16,17 @@ h3 {
   text-align: center;
 }
 
-img {
-  width: 40%;
-  height: auto;
-  padding: 2rem 0 2rem 0;
+.btn {
+  padding: none;
+  margin: auto;
 }
 
-.imgClicked {
-  width: 60%;
-  height: auto;
-  padding: 2rem 0 2rem 0;
-  background-color: black;
+.cardBlock {
+  background-color: #EFF0F5;
+  border: 1rem;
+  border-style: solid;
+  margin: 0 2rem 0 2rem;
+  padding: none;
 }
 
 .topBlock {
@@ -37,15 +37,7 @@ img {
 }
 
 .questionBlock {
-  background-color: white;
   margin: auto;
   padding: 3rem 0 3rem 0;
   font-family: 'David Libre', serif;
-}
-
-.pictureButtons {
-  background-color: black;
-  margin: auto;
-  padding: 1rem 0 1rem 0;
-  text-align: center;
 }
