@@ -21,10 +21,22 @@ h3 {
   margin: auto;
 }
 
+.btnClicked {
+  padding: none;
+  margin: auto;
+  box-shadow: 1px;
+}
+
+.button-group {
+  margin: auto;
+  padding: 0 0 2rem 0;
+}
+
 .cardBlock {
   background-color: #EFF0F5;
-  border: 1rem;
+  border: 0.5rem;
   border-style: solid;
+  border-color: #C8D1DE;
   margin: 0 2rem 0 2rem;
   padding: none;
 }
