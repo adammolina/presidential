@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".pictureButtons").on("click", function(event) {
-    alert("You did it!");
+  $(".pictureButtons").on("click", function() {
+    var picture = this.querySelector
   });
 });
