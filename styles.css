@@ -21,15 +21,14 @@ h3 {
   margin: auto;
 }
 
-.btnClicked {
-  padding: none;
-  margin: auto;
-  box-shadow: 1px;
+.btn:hover {
+    background-color: #666;
+    color: white;
 }
 
 .button-group {
   margin: auto;
-  padding: 0 0 2rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .cardBlock {
@@ -37,8 +36,8 @@ h3 {
   border: 0.5rem;
   border-style: solid;
   border-color: #C8D1DE;
-  margin: 0 2rem 0 2rem;
-  padding: none;
+  margin: auto;
+  padding: 10rem 3rem 10rem 3rem;
 }
 
 .topBlock {
